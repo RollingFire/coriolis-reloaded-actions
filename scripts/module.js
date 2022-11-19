@@ -114,5 +114,8 @@ function _hasEffect(token, effectId) {
 }
 
 function _setEffect(token, effectId, state) {
+  if (state && _hasEffect(token, effectId)) {
+      return
+  }
   token.toggleEffect(CONFIG.statusEffects.find(eff => eff.id.includes(effectId)), { active: state })
 }
