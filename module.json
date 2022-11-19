@@ -1,7 +1,7 @@
 {
   "name": "alien-actions",
-  "title": "Year Zero Actions",
-  "description": "Module to track fast/slow actions on Year Zero system games.",
+  "title": "Coriolis Reloaded Actions",
+  "description": "Module to track fast/slow actions on Coriolis Reloaded system games.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.5.2",
@@ -11,8 +11,8 @@
 
   "packs": [
     {
-      "name": "yearzero-actions",
-      "label": "Year Zero Actions",
+      "name": "coriolis-reloaded-actions",
+      "label": "Coriolis Reloaded Actions",
       "path": "./packs/yearzero-actions.db",
       "entity": "Macro"
 }
